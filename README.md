@@ -4,14 +4,14 @@
 This project builds a **fully automated machine learning pipeline** to predict loan approval status using a CSV dataset.  
 It includes:
 
-✔ Automatic preprocessing  
-✔ Missing value handling using SimpleImputer  
-✔ Encoding using OneHotEncoder  
-✔ Pipeline-based training  
-✔ Hyperparameter tuning  
-✔ Model versioning  
-✔ A separate prediction script  
-✔ Clean modular structure  
+* Automatic preprocessing  
+* Missing value handling using SimpleImputer  
+* Encoding using OneHotEncoder  
+* Pipeline-based training  
+* Hyperparameter tuning  
+* Model versioning  
+* A separate prediction script  
+* Clean modular structure  
 
 
 #  Project Features
@@ -28,7 +28,7 @@ No need to manually list columns.
 
 ## 2️) **Automated Preprocessing Pipeline**
 
-### ✔ Categorical Columns  
+### * Categorical Columns  
 Processed using a mini-pipeline:
 
 | Step | Transformer | Purpose |
@@ -36,14 +36,14 @@ Processed using a mini-pipeline:
 | 1 | `SimpleImputer(strategy="most_frequent")` | Handles missing values |
 | 2 | `OneHotEncoder(handle_unknown="ignore")` | Converts categories to numbers |
 
-###  Numerical Columns  
+### * Numerical Columns  
 Processed using:
 
 | Transformer | Purpose |
 |-------------|---------|
 | `SimpleImputer(strategy="mean")` | Replaces missing numeric values |
 
-###  Final Model  
+### * Final Model  
 `RandomForestClassifier(random_state=42)`
 
 All combined inside:
@@ -190,7 +190,7 @@ joblib
 
 ---
 
-# ✨ Why Random Forest?
+#  Why Random Forest?
 
 - Handles categorical + numerical data  
 - Handles missing values effectively  
