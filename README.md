@@ -92,7 +92,7 @@ Ensures reproducibility & basic MLOps.
 
 ---
 
-#  How the Pipeline Works (Step-by-Step)
+#  How the Pipeline Works 
 
 ### **1. Load data**
 ```python
@@ -179,7 +179,7 @@ python main.py
 
 ---
 
-# 📦 Dependencies (requirements.txt)
+#  Dependencies (requirements.txt)
 
 ```
 pandas
