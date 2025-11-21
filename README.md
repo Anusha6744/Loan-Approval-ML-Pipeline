@@ -114,14 +114,19 @@ Uses GridSearchCV (cv=3).
 ```python
 best_pipeline.fit(x, y)
 ```
+### **6. Testing and evaluation**
+  • Accuracy
+  • Confusion Matrix
+  • Classification Report
 
-### **6. Versioned saving**
+
+### **7. Versioned saving**
 Automatically creates:
 ```
 models/loan_model_vX.pkl
 ```
 
-### **7. Prediction**
+### **8. Prediction**
 Using:
 ```python
 model.predict(pd.DataFrame([input_dict]))
