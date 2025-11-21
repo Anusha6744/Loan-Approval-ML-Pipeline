@@ -19,3 +19,6 @@ if "Loan_Status" in test_df.columns:
     from sklearn.metrics import accuracy_score
     y_test = test_df["Loan_Status"]
     print("Test Accuracy:", accuracy_score(y_test, predictions))
+    print("Classification report:",classification_report(y_test,y_pred))
+    print("Confusion matrix:",confusion_matrix(y_test,y_pred))
+
