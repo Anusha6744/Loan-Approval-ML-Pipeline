@@ -129,7 +129,7 @@ models/loan_model_vX.pkl
 ### **8. Prediction**
 Using:
 ```python
-model.predict(pd.DataFrame([input_dict]))
+predict_loan_status(model, sample)
 ```
 
 ---
