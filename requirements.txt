@@ -1,3 +1,8 @@
 pandas
 scikit-learn
 joblib
+numpy
+mlflow
+flask
+matplotlib
+seaborn 

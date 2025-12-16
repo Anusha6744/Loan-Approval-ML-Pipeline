@@ -44,11 +44,11 @@ sample = {
         "Dependents": "1",
         "Education": "Graduate",
         "Self_Employed": "No",
-        "ApplicantIncome": 4000,
-        "CoapplicantIncome": 1200,
+        "ApplicantIncome": 0,
+        "CoapplicantIncome": 0,
         "LoanAmount": 150,
         "Loan_Amount_Term": 360,
-        "Credit_History": 1,
+        "Credit_History": 0,
         "Property_Area": "Urban"
     }
 

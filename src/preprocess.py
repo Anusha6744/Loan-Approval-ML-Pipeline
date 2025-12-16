@@ -9,6 +9,4 @@ def split_features_target(df, target_col):
     y = df[target_col]
     return x, y
 
-def train_test_split_data(x, y, test_size=0.2):
-     return train_test_split(x, y, test_size=test_size, random_state=42)
 
