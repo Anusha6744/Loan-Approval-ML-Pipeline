@@ -2,3 +2,7 @@ venv/
 models/
 *.pkl
 __pycache__/
+*.pkl
+classification_report.txt
+confusion_matrix.png
+mlruns/
