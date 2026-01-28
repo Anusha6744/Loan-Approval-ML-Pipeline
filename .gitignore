@@ -1,8 +1,7 @@
-venv/
-models/
-*.pkl
+mlruns/
 __pycache__/
 *.pkl
-classification_report.txt
-confusion_matrix.png
-mlruns/
+*.png
+*.txt
+.env
+venv/
