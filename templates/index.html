@@ -1,0 +1,37 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Approval App</title>
+</head>
+<body>
+    <h1>Loan Approval Prediction</h1>
+    <form action="/predict" method="post">
+        <label>Gender: 
+    <select name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+</label><br>
+
+<label>Married: 
+    <select name="Married">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+</label><br>
+
+<label>Applicant Income: <input type="number" name="ApplicantIncome"></label><br>
+<label>Loan Amount: <input type="number" name="LoanAmount"></label><br>
+<label>Credit History: 
+    <select name="Credit_History">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+</label><br>
+
+        <!-- add more input fields as needed -->
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
